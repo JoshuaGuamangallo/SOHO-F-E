@@ -1,0 +1,53 @@
+.containerMenu{
+
+    padding: 20px 0px 0px 0px;
+    img{
+        width: 40px;
+        height: 50px;
+        border: 0 ;
+        padding: 0;
+    }
+}
+
+
+.menu{
+    ul{
+        li{
+            .nav-link{
+                color: Gray !important;
+                
+            }
+            .nav-link:hover{
+                color: white !important;
+                border-bottom: #00bf0b 3px solid; 
+            }
+        }
+    }
+}
+ .message{
+
+    padding: 5%;
+    border: 0;
+    .text{
+        padding: 50px;
+        .textOne{
+            color: white;
+            font-weight: bold;
+            font-size: 50px;
+
+        }
+        .textTwo{
+            color: #00bf0b;
+            font-weight: bold;
+            font-size: 50px;
+
+        }
+    }
+
+    .btn-primary{
+        padding: 12px 20px;
+        background-color: #00bf0b !important;
+        border-color: #00bf0b !important;
+        font-size: 12px;
+    }
+ }

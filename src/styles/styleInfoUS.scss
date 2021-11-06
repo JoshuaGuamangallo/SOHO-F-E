@@ -1,0 +1,76 @@
+.info{
+   background-color: #273138;
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+   width: 100%;
+   color: white;
+}
+.experience{
+    padding: 50px 0px 10px 0px;
+    h2{
+        font-weight: bold;
+
+    }
+    hr{
+        width: 5%;
+        height: 5px;
+        margin-left: 48%;
+        background-color: #00bf0b;
+        opacity: 1;
+    }
+   pre{
+        color: gray;
+    }
+}
+.cardsInfo{
+    .card {
+        position: absolute !important;
+        border: 0px !important;     
+        width: 33.333%;
+        height: 35%;
+        padding-top: 3.5% ;
+    }
+
+    .card-body{
+        padding-bottom: 5%;
+        h5{
+            color: #00bf0b;
+        }
+        pre{
+            color: gray;
+        }
+
+    }
+    .strategiesCard{
+        background-color: #3B4148;
+        left: 0%;
+        
+    }
+    .experienceCard{
+        background-color: #161C21;
+        left: 33.333%;
+    }
+    .objectiveCard{
+        background-color: #202A37;
+        right: 0%;
+    }
+}
+.projects{
+    position: relative;
+    top: 45%;
+    h2{
+        font-weight: bold;
+
+    }
+    hr{
+        width: 5%;
+        height: 5px;
+        margin-left: 48%;
+        background-color: #00bf0b;
+        opacity: 1;
+    }
+   pre{
+        color: gray;
+    }
+}

@@ -1,0 +1,54 @@
+.infoProjects{  
+    line-height: 30px;
+    height: 59vh;
+}
+
+.infoProjects:nth-child(odd){
+    position: relative;
+    height: 59vh;
+
+}
+.infoProjects:nth-child(even){
+
+    position: relative;
+    .imagen{
+        position: relative;
+        left:50%;
+        height: 59vh;
+
+
+    }
+    .info{
+        position: relative;
+        right: 50%; 
+        height: 59vh;
+    }
+}
+.btn-primary{
+    padding: 12px 20px;
+    background-color: white !important;
+    border-color: white !important;
+    font-size: 12px;
+    
+}
+.tags{
+    font-size: 10px;
+
+}
+.title{
+    padding-top: 15%;
+}
+.imagen{
+    padding-top: 5%;
+
+}
+
+.screen{
+    width: 500px;
+    height: 300px;
+}
+
+.row>* {
+    height: 100%;
+}
+

@@ -1,0 +1,36 @@
+
+.event{
+
+    padding: 1%;
+    height: 10vh;
+    background-color: black;
+
+
+    align-content: center;
+
+    color: white;
+    .btn-primary{
+        padding: 6px 15px;
+        background-color: #00bf0b !important;
+        border-color: #00bf0b !important;
+        font-size: 12px;
+        
+    }
+    .btn-outline-primary {
+        padding: 6px 15px;
+        color: #00bf0b;
+        border-color: #00bf0b;
+        font-size: 12px
+        
+    }
+    .btn-outline-primary:hover{
+        background-color: rgba(0, 0, 0, 0) !important;       
+
+    }
+    .btn-primary:focus
+    {
+        box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0) !important;
+    }
+
+
+}
